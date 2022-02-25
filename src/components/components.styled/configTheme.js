@@ -1,9 +1,11 @@
 export const theme = {
   color: {
     main: "#595959",
+    red: "#D9534F",
   },
   background: {
     main: "white",
+    redLight: "#FAE1E0",
   },
   spacing: {
     0.5: "0,3125rem",
