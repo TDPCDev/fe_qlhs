@@ -1,6 +1,7 @@
 [
   {
     "title": "Tổng quan",
+    "admin": false,
     "submenu": [
       {
         "id": "dashboard",
@@ -12,70 +13,73 @@
   },
   {
     "title": "Hồ sơ thẩm duyệt",
+    "admin": false,
     "submenu": [
       {
         "id": "tdAddNew",
         "title": "Thêm hồ sơ",
         "icon": "fa-solid fa-file-medical",
-        "src": "/add-td"
+        "src": "/design/add"
       },
       {
         "id": "tdNew",
         "title": "Chuyển hồ sơ mới",
         "icon": "fa-solid fa-file-export",
-        "src": "/td-new"
+        "src": "/design/new"
       },
       {
         "id": "tdInprocess",
         "title": "Đang xử lý",
         "icon": "fa-solid fa-file-contract",
-        "src": "/td-inprocess"
+        "src": "/design/inprocess"
       },
       {
         "id": "tdFinish",
         "title": "Hoàn thành",
         "icon": "fa-solid fa-file-code",
-        "src": "/td-finish"
+        "src": "/design/finish"
       }
     ]
   },
   {
     "title": "Hồ sơ nghiệm thu",
+    "admin": false,
     "submenu": [
       {
         "id": "ntNew",
         "title": "Hồ sơ mới",
         "icon": "fa-solid fa-file-medical",
-        "src": "/nt-new"
+        "src": "/checkup/new"
       },
       {
         "id": "ntInprocess",
         "title": "Đang xử lý",
         "icon": "fa-solid fa-file-contract",
-        "src": "/nt-inprocess"
+        "src": "/checkup/inprocess"
       },
       {
         "id": "ntFinish",
         "title": "Hoàn thành",
         "icon": "fa-solid fa-file-code",
-        "src": "/nt-finish"
+        "src": "/checkup/finish"
       }
     ]
   },
   {
     "title": "Quản lý admin",
+    "admin": true,
     "submenu": [
       {
         "id": "adminUser",
         "title": "Quản lý người dùng",
         "icon": "fa-solid fa-users-gear",
-        "src": "/admin-user"
+        "src": "/admin/user"
       },
       {
         "id": "adminTypeBuilding",
         "title": "Quản lý loại công trình",
         "icon": "fa-solid fa-users-gear",
-        "src": "/admin-typebuilding"
+        "src": "/admin/typebuilding"
       }
     ]
   }
