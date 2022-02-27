@@ -24,3 +24,8 @@ export const loginAction = (user) => {
       });
   };
 };
+export const logoutAction = () => {
+  return {
+    type: authTypes.LOGOUT,
+  };
+};

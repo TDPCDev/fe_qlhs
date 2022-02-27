@@ -30,6 +30,11 @@ export const authReducer = (state = stateDefaut, action) => {
 
       return { ...state };
     }
+    case authTypes.LOGOUT: {
+      localStorage.removeItem("user");
+      localStorage.removeItem("accessToken");
+      return { user: null, loading: false, message: "", error: false };
+    }
     default:
       return { ...state };
   }
