@@ -1,10 +1,10 @@
-import { Breadcrumb } from "antd";
 import { useEffect, useState } from "react";
 import { Outlet, useLocation, useNavigate } from "react-router-dom";
-import PropTypes from "prop-types";
-import BreadcumbStyled from "../../components/components.styled/BreadcumbStyled/BreadcumStyled";
-import listMenu from "../../configs/listMenuSidebar.json";
 import { useSelector } from "react-redux";
+import PropTypes from "prop-types";
+import listMenu from "../../configs/listMenuSidebar.json";
+import { Breadcrumb } from "antd";
+import BreadcumbStyled from "../../components/components.styled/BreadcumbStyled/BreadcumStyled";
 
 const ContentLayout = ({ header = "" }) => {
   const location = useLocation();
